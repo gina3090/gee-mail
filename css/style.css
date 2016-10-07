@@ -1,3 +1,35 @@
 body {
-	background-color: yellow; font-family: Arial;
+	font-family: 'Poppins', sans-serif;
+	margin: auto;
+	background-image: url("http://www.publicdomainpictures.net/pictures/40000/velka/red-check-background-pattern.jpg");
+}
+
+#header {
+	background-color: #B22222;
+	}
+
+#header ul {
+	list-style: none;
+}
+
+#header li {
+	display: inline;
+	margin-right: 150px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.mailBox {
+	border-style: double;
+	background-color: white;
+}
+
+.sender {
+	font-weight: bold;
+}
+
+.body {
+	display: none;
 }
